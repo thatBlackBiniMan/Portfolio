@@ -14,82 +14,107 @@ const Experience = () => {
      
      
       <article className='experience_details'>
-         <BsPatchCheckFill/>
-         <h4>Clinical Medicine and Basic Surgical Skills</h4>
+         <BsPatchCheckFill className="experience_details_icon"/>
+        <div>
+        <h4>Clinical Medicine and Basic Surgical Skills</h4>
         <small className='text-light'>Experienced</small>
+        </div>
+         
          </article>
 
      
      
      
         <article className='experience_details'>
-         <BsPatchCheckFill/>
-         <h4>Research Writing</h4>
+         <BsPatchCheckFill className="experience_details_icon"/>
+      <div>
+      <h4>Research Writing</h4>
         <small className='text-light'>Experienced</small>
+      </div>
          </article>
 
          <article className='experience_details'>
-         <BsPatchCheckFill/>
-         <h4>Article Writing</h4>
+         <BsPatchCheckFill className="experience_details_icon"/>
+       <div>
+        <h4>Article Writing</h4>
         <small className='text-light'>Experienced</small>
+        </div>
          </article>
 
+  
+         <article className='experience_details'>
+         <BsPatchCheckFill className="experience_details_icon"/>
+          <div>
+          <h4>Ebooks Writing and Design</h4>
+        <small className='text-light'>Experienced</small>
+         
+          </div>
+         </article>
+
+
+         <article className='experience_details'>
+         <BsPatchCheckFill className="experience_details_icon"/>
+         <div>
+         <h4>Blockchain Research & Articles</h4>
+        <small className='text-light'>Experienced</small>
+         
+         </div>
+         </article>
+
+      </div>
+      </div>
      
-
-         <article className='experience_details'>
-         <BsPatchCheckFill/>
-         <h4>Ebooks Writing and Design</h4>
-        <small className='text-light'>Experienced</small>
-         </article>
-
-
-         <article className='experience_details'>
-         <BsPatchCheckFill/>
-         <h4>Clinical Medicine and Basic Surgical Skills</h4>
-        <small className='text-light'>Experienced</small>
-         </article>
-
-      </div>
-      </div>
+     
      
       <div className="experience_backend">
+     <h3>Software Development</h3>
       <div className="experience_content">
      
-     
      <article className='experience_details'>
-        <BsPatchCheckFill/>
-        <h4>Clinical Medicine and Basic Surgical Skills</h4>
+        <BsPatchCheckFill className="experience_details_icon"/>
+     <div>
+     <h4>Html $ Css</h4>
        <small className='text-light'>Experienced</small>
-        </article>
+     </div>
+    </article>
 
     
     
     
        <article className='experience_details'>
-        <BsPatchCheckFill/>
-        <h4>Research Writing</h4>
+        <BsPatchCheckFill className="experience_details_icon"/>
+        <div>
+        <h4>JavaScript (React, Vue, Angular)</h4>
        <small className='text-light'>Experienced</small>
+        </div>
         </article>
 
         <article className='experience_details'>
-        <BsPatchCheckFill/>
-        <h4>Article Writing</h4>
+        <BsPatchCheckFill className="experience_details_icon"/>
+        <div>
+        <h4>Solidity</h4>
        <small className='text-light'>Experienced</small>
-        </article>
+        </div>
+      </article>
 
     
 
         <article className='experience_details'>
-        <BsPatchCheckFill/>
-        <h4>Ebooks Writing and Design</h4>
+        <BsPatchCheckFill className="experience_details_icon"/>
+          <div>
+          <h4>Golang</h4>
        <small className='text-light'>Experienced</small>
+          </div>
         </article>
 
 
         <article className='experience_details'>
-        <BsPatchCheckFill/>
-        <h4>Clinical Medicine and Basic Surgical Skills</h4>
+        <BsPatchCheckFill className="experience_details_icon"/>
+        <div>
+        <h4>Database (MongoDB, MySQl)</h4>
        <small className='text-light'>Experienced</small>
+        </div>
+        
         </article>
 
      </div>
