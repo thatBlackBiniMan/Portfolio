@@ -9,6 +9,53 @@ const Services = () => {
       <h2>Services</h2>
     
     <div className="container services_container">
+    
+    
+    
+    
+    <article className='service'>
+        <div className="service_head">
+        <h3>Software Development</h3>      
+        </div>
+      <ul className="service_list">
+        <li>
+          <BiCheck className='service_list-icon'/>
+          <p>UI/UX Design</p>
+        </li>
+      
+        <li>
+          <BiCheck className='service_list-icon'/>
+          <p>Web Development</p>
+        </li>
+      
+        <li>
+          <BiCheck className='service_list-icon'/>
+          <p>Web 3 & Blockchain Dapps</p>
+        </li>
+      
+        <li>
+          <BiCheck className='service_list-icon'/>
+          <p>Sass Development</p>
+        </li>
+      
+        <li>
+          <BiCheck className='service_list-icon'/>
+          <p>Shopify Development</p>
+        </li>
+      
+        <li>
+          <BiCheck className='service_list-icon'/>
+          <p>Wordpress & Woo Commerce</p>
+        </li>
+      
+      
+      </ul>
+      </article>
+    
+    
+    
+    
+    
       <article className='service'>
         <div className="service_head">
         <h3>Medical Services</h3>      
@@ -21,63 +68,23 @@ const Services = () => {
       
         <li>
           <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
+          <p>Medical Locum Cover</p>
         </li>
       
         <li>
           <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
+          <p>Laboratory & Radiological Results Interpretation</p>
         </li>
       
         <li>
           <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
+          <p>Medical Outreach</p>
         </li>
       
         <li>
           <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
+          <p>Medical Tutoring (Exams preparations)</p>
         </li> 
-      
-      </ul>
-      </article>
-    
-    
-      <article className='service'>
-        <div className="service_head">
-        <h3>Software Development</h3>      
-        </div>
-      <ul className="service_list">
-        <li>
-          <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
-        </li>
-      
-        <li>
-          <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
-        </li>
-      
-        <li>
-          <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
-        </li>
-      
-        <li>
-          <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
-        </li>
-      
-        <li>
-          <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
-        </li>
-      
-        <li>
-          <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
-        </li>
-      
       
       </ul>
       </article>
@@ -90,27 +97,27 @@ const Services = () => {
       <ul className="service_list">
         <li>
           <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
+          <p>Research Writing</p>
         </li>
       
         <li>
           <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
+          <p>Blog Articles Writing</p>
         </li>
       
         <li>
           <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
+          <p>E-books Design & Writing</p>
         </li>
       
         <li>
           <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
+          <p>Web 3.0 & Blockchain Articles Writing</p>
         </li>
       
         <li>
           <BiCheck className='service_list-icon'/>
-          <p>Basic Surgical Procedures (Cesearean section, Appendicectomy)</p>
+          <p>Games Blog Posts & Articles</p>
         </li>
       
   
