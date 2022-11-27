@@ -1,10 +1,23 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import './contact.css';
 import {TfiEmail} from 'react-icons/tfi';
 import {FaFacebookMessenger} from 'react-icons/fa';
 import {BsWhatsapp} from 'react-icons/bs';
+import emailjs from 'emailjs-com';
+
+
 
 const Contact = () => {
+  const form = useRef();
+  
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_dn5tmep', 'template_ku05aki', form.current, 'E71SsJzhRc9U6SmDa')
+  
+    e.target.reset()
+  };
+
   return (
     <section id='contact'>
       <h5>Feel Free To</h5>
@@ -35,7 +48,7 @@ const Contact = () => {
 
 
       </div>
-    <form action="">
+    <form ref={form} onSubmit={sendEmail}>
       <input type="text" name='name' placeholder='Your full name' required/>
       <input type="email" name='email' placeholder='Your Email' required/>
       <textarea name="message" placeholder='Enter Your Message' rows="7" required></textarea>
